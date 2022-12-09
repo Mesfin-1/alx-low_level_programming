@@ -6,10 +6,11 @@
  **/
 int main(void)
 {
-int i;
-for (i = 48; i <= 57; i++)
+int base_10;
+for (base_10 = 0; base_10 <= 10; base_10++)
 {
-putchar ('\n');
+putchar(base_10);
+putchar('\n');
 }
 return (0);
 }
