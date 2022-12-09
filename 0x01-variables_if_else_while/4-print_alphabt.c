@@ -12,7 +12,8 @@ if (alphabet == 'q')
 continue;
 else if (alphabet == 'e')
 continue;
-putchar(alphabet"\n");
+putchar(alphabet);
+
 }
 return (0);
 }
