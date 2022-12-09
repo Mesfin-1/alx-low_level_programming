@@ -5,11 +5,11 @@
  **/
 int main(void)
 {
-int Num;
+int ;
 char base_16;
-for (Num = 0; Num < 10; Num++)
+for (i = 0; i <= 10; i++)
 {
-  putchar((Num % 10) + '0');
+putchar((i % 10) + '0');
 }
 for (base_16 = 'a'; base_16 <= 'f'; base_16++)
 {
