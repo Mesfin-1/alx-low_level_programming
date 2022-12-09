@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - Entry point
  * Return: Always  (success/correct)
@@ -13,7 +12,7 @@ if (alphabet == 'q')
 continue;
 else if (alphabet == 'e')
 continue;
-putchar(alphabet);
+putchar(alphabet"\n");
 }
 return (0);
 }
