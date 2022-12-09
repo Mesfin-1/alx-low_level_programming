@@ -5,12 +5,13 @@
  **/
 int main(void)
 {
+int Num;
 char base_16;
-for (base_16 = 40; base_16 <= 57; base_16++)
+for (Num = 0; Num < 10; Num++)
 {
-putchar(base_16);
+  putchar((Num % 10) + '0');
 }
-for (base_16 = 97; base_16 <= 102; base_16++)
+for (base_16 = 'a'; base_16 <= 'f'; base_16++)
 {
 putchar(base_16);
 }
