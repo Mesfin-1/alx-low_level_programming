@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - Entry point
- * Description: Print _isalpha
+ * _isalpha: Main function 
  *Return: Always 0 (Success)
  */
 int _isalpha(int c)
@@ -9,7 +9,7 @@ int _isalpha(int c)
 if ((c > 'a' && c < 'z') || (c > 'A' && c < 'Z'))
 {return (01);
 }
-else 
+else
 {return (0);
 }
 }
