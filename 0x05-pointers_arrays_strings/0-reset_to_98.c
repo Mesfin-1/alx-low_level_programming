@@ -2,7 +2,7 @@
 
 /**
  * main -  check the code
- * reset_to_98: - function that takes pointer to an int as parameter & updates the value to 98.
+ * reset_to_98: - function that updates the value to 98.
  * @n: a pointer to an int that will be updated
  * return: void that means is correct
  */
