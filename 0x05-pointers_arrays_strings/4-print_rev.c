@@ -1,14 +1,10 @@
 #include "main.h"
 
 /**#include “main.h”
- *
- *  *print_rev prints a string in reverse order
- *
- *   *@s: a pointer to an int that will be updated
- *
- *    *return: void that means is correct
- *
- **/
+ * print_rev prints a string in reverse order
+ * @s: a pointer to an int that will be updated
+ * return: void that means is correct
+ */
 
 
 
