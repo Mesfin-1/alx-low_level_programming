@@ -1,24 +1,15 @@
 #include "main.h"
 
-
-
 /**
- * _puts- prints a string
- * @astr a pointer to an int that will be updated
- * return: void that means is correct
- **/
+ * _puts - prints a string, followed by a new line, to stdou
+ * @str: string to print
+ */
 
-
-
-void _puts(char  *str)
-
+void _puts(char *str)
 {
-char *c;
-int m;
-c = str;
-for (m = 0; c[m]; m++)
+while (*str != '\0')
 {
-_putchar (c[m]);
+_putchar(*str++);
 }
-_putchar ('\n');
+_putchar('\n');
 }
