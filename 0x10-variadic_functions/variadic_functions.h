@@ -1,7 +1,7 @@
 #ifndef VARIADIC_FUNCTION_H
 #define VARIADIC_FUNCTION_H
 
-#include <stdarg.h
+#include <stdarg.h>
 
 /**
  * struct printer - A new struct type defining a printer.
