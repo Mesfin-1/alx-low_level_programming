@@ -9,23 +9,19 @@
 
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int num = 0, mult = 1;
-	int l;
+	unsigned int dec_val = 1;
+	int i;
 
-	if (b == '\0')
+	if (!b)
 		return (0);
 
-	for (l = 0; b[l];)
-		l++;
-
-	for (l -= 1; l >= 0; l--)
+	for (i = 0; b[i]; i++)
 	{
-		if (b[l] != '0' && b[l] != '1')
+		if (b[i] < '0' || b[i] > '1')
 			return (0);
 
-		num += (b[l] - '0') * mult;
-		mult *= 2;
+		dec_val = 2 * dec_val + (b[i] - '0');
 	}
 
-	return (num);
+	return (dec_val);
 }
